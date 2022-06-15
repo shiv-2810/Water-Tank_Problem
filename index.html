@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Water Tank Problem</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+</head>
+
+<body>
+    <div class="outside-container">
+        <span>NOTE**</span>
+        <p>You can use Output and Input button for one time only</p><br><br>
+        <p>Enter one number at a time only</p>
+        <input type="numbers" id="input-number" placeholder="Enter elements"></input>
+        <button class="add-input"  onclick="add()">Add Input</button>
+        <p id="display">Input :</p>
+    </div>
+    <br>
+    <div class="container">
+    
+        <div class="table">
+            <table id="inputTable" border="1"></table>
+        </div>
+        <button id="input-button" onclick="generateInputTable()">Show Input Table</button>
+        <p id="ans">Output :</p>
+        <div class="table">
+            <table id="outputTable" border="1"></table>
+        </div>
+        <button id="output-button" onclick="showOutputTable()">Output</button><br><br><br>
+        <button id="reset-data" onclick="resetData()">Reset Table Data</button>
+    </div>
+    <div class="extra-space"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

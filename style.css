@@ -1,0 +1,37 @@
+.outside-container{
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-number {
+    width: 8vw;
+    height: 3vh;
+}
+
+button {
+    width: 8vw;
+    height: 4vh;
+    margin: 0.5rem;
+}
+.table {
+    border: 1px solid black;
+}
+table {
+    width: 50vw;
+    height: 30vh;
+    border-collapse: collapse;
+}
+
+.add-input{
+    height: 3.5vh;
+    width: 8vw;
+}
+
+.extra-space{
+    height: 15vh;
+}
